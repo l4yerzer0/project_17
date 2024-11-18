@@ -1,0 +1,51 @@
+@import url(../styles/header.css);
+@import url(../styles/footer.css);
+@import url(../styles/body.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  min-inline-size: 360px;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(../fonts/Raleway-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Raleway-Italic";
+  src: url(../fonts/Raleway-Italic.woff2);
+}
+
+@font-face {
+  font-family: "STIXTwoText-SemiBold";
+  src: url(../fonts/STIXTwoText-SemiBold.woff2);
+}
+
+:root {
+  --bg-color: #F3EFEC;
+  --text-color: #312A4E;
+  --accent-color: #FFAB6B;
+  --main-font: "Raleway-Regular";
+  --accent-font: "STIXTwoText-SemiBold";
+}
+
+
