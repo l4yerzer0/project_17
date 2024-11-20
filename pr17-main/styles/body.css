@@ -153,3 +153,9 @@ body {
 .content__card-title {
     font-size: 60px;
 }
+
+.header__theme-button:focus-visible, .paragraph_links:focus-visible {
+    border-radius: 0px;
+    outline-color: currentColor;
+    outline-style: solid;
+}
